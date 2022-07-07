@@ -1,0 +1,564 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-06 14:37:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>a799f4909e374e2b85331a602beff2d0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Best Sellers.Click</Name>
+    <Description />
+    <StartTime>2022-07-06 14:38:01</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Best Sellers]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Best Sellers]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e183c1e431a7426080b2af0b2b596e57</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-06 14:38:01</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>810373b243314003b27a33bc11230294</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Most Wished For.Click</Name>
+    <Description />
+    <StartTime>2022-07-06 14:38:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon.in Bestsellers:]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Most Wished For]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//LI/DIV/A[normalize-space()="Most Wished For"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Most Wished For]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[Most Wished For]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;a href="/gp/most-wished-for/ref=zg_bs_tab"&gt;Most Wished For&lt;/a&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Most Wished For]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[Most Wished For]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[href]]></Name>
+            <Value><![CDATA[https://www.amazon.in/gp/most-wished-for/ref=zg_bs_tab]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e183c1e431a7426080b2af0b2b596e57</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon.in Bestsellers:</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-06 14:38:04</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon.in Bestsellers:]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>810373b243314003b27a33bc11230294</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Watches.Click</Name>
+    <Description />
+    <StartTime>2022-07-06 14:38:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon.in Most Wished]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Watches]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@role="treeitem"]/A[normalize-space()="Watches"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Watches]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[Watches]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;a href="/gp/most-wished-for/watches/ref=zg_mw_nav_0"&gt;Watches&lt;/a&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Watches]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[Watches]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[href]]></Name>
+            <Value><![CDATA[https://www.amazon.in/gp/most-wished-for/watches/ref=zg_mw_nav_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e183c1e431a7426080b2af0b2b596e57</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon.in Most Wished</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-06 14:38:08</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon.in Most Wished]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>810373b243314003b27a33bc11230294</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Boys.Click</Name>
+    <Description />
+    <StartTime>2022-07-06 14:38:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon.in Most Wished_7]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Boys]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@role="treeitem"]/A[normalize-space()="Boys"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Boys]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[Boys]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;a href="/gp/most-wished-for/watches/2563506031/ref=zg_mw_nav_watches_1"&gt;Boys&lt;/a&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Boys]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[Boys]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[href]]></Name>
+            <Value><![CDATA[https://www.amazon.in/gp/most-wished-for/watches/2563506031/ref=zg_mw_nav_watches_1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e183c1e431a7426080b2af0b2b596e57</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon.in Most Wished_7</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-06 14:38:11</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon.in Most Wished_7]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>810373b243314003b27a33bc11230294</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Boys' Watchbands.Click</Name>
+    <Description />
+    <StartTime>2022-07-06 14:38:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon.in Most Wished_8]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Boys' Watchbands]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="zg-left-col"]/DIV/DIV[@role="tree"]/DIV/DIV/DIV[@role="group"]/DIV[@role="treeitem"]/A[normalize-space()="Boys' Watchbands"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Boys' Watchbands]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[Boys' Watchbands]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;a href="/gp/most-wished-for/watches/5518824031/ref=zg_mw_nav_watches_2_2563506031"&gt;Boys' Watchbands&lt;/a&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Boys' Watchbands]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[Boys' Watchbands]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[href]]></Name>
+            <Value><![CDATA[https://www.amazon.in/gp/most-wished-for/watches/5518824031/ref=zg_mw_nav_watches_2_2563506031]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e183c1e431a7426080b2af0b2b596e57</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon.in Most Wished_8</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-06 14:38:15</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon.in Most Wished_8]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>810373b243314003b27a33bc11230294</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Browser</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-06 14:38:01</StartTime>
+    <Duration>16</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>301f084f7eb1490e9384985b471947ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Most Wished For in Boys' Watchbands</Name>
+    <Description>Pass</Description>
+    <StartTime>2022-07-06 14:38:17</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>ccadfaeb85764a45a8d555a4c1235340</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-06 14:37:55</StartTime>
+    <Duration>22</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>e80b57ad038649f09b7a7540639c6298</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AmazonProject</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-06 14:37:51</StartTime>
+    <Duration>26</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>3cafc8594e0f412b92acb67df690d8b3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user239</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-21</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res327</ResultName>
+    <RunStartTime>2022-07-06 14:37:51</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

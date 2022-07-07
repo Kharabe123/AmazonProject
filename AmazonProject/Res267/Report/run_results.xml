@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Transaction">
+<Data>
+    <Name>Bestsellers</Name>
+    <Description>Transaction "Bestsellers" started.</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f1e1e1a5986a45e18c605a88ca749b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Bestsellers</Name>
+    <Description>Transaction "Bestsellers" ended with "Pass" status (Total Duration: 0.0562 sec).</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>59a0ab43e0074ceb8f367bb0a2055f42</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Amazon_Launchpad</Name>
+    <Description>Transaction "Amazon_Launchpad" started.</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f1e1e1a5986a45e18c605a88ca749b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Amazon_Launchpad</Name>
+    <Description>Transaction "Amazon_Launchpad" ended with "Pass" status (Total Duration: 0.0254 sec).</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>59a0ab43e0074ceb8f367bb0a2055f42</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Apps_for_Android</Name>
+    <Description>Transaction "Apps_for_Android" started.</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f1e1e1a5986a45e18c605a88ca749b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Apps_for_Android</Name>
+    <Description>Transaction "Apps_for_Android" ended with "Pass" status (Total Duration: 0.0163 sec).</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>59a0ab43e0074ceb8f367bb0a2055f42</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Audio</Name>
+    <Description>Transaction "Audio" started.</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f1e1e1a5986a45e18c605a88ca749b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Audio</Name>
+    <Description>Transaction "Audio" ended with "Pass" status (Total Duration: 0.0145 sec).</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>59a0ab43e0074ceb8f367bb0a2055f42</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Baby</Name>
+    <Description>Transaction "Baby" started.</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f1e1e1a5986a45e18c605a88ca749b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Baby</Name>
+    <Description>Transaction "Baby" ended with "Pass" status (Total Duration: 0.0184 sec).</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>59a0ab43e0074ceb8f367bb0a2055f42</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Beauty</Name>
+    <Description>Transaction "Beauty" started.</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f1e1e1a5986a45e18c605a88ca749b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Beauty</Name>
+    <Description>Transaction "Beauty" ended with "Pass" status (Total Duration: 0.0156 sec).</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>59a0ab43e0074ceb8f367bb0a2055f42</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Car</Name>
+    <Description>Transaction "Car" started.</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f1e1e1a5986a45e18c605a88ca749b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Car</Name>
+    <Description>Transaction "Car" ended with "Pass" status (Total Duration: 0.0135 sec).</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>59a0ab43e0074ceb8f367bb0a2055f42</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Girls</Name>
+    <Description>Transaction "Girls" started.</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f1e1e1a5986a45e18c605a88ca749b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Girls</Name>
+    <Description>Transaction "Girls" ended with "Pass" status (Total Duration: 0.0178 sec).</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>59a0ab43e0074ceb8f367bb0a2055f42</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Computer</Name>
+    <Description>Transaction "Computer" started.</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f1e1e1a5986a45e18c605a88ca749b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Computer</Name>
+    <Description>Transaction "Computer" ended with "Pass" status (Total Duration: 0.0174 sec).</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>59a0ab43e0074ceb8f367bb0a2055f42</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Garden</Name>
+    <Description>Transaction "Garden" started.</Description>
+    <StartTime>2022-07-06 07:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f1e1e1a5986a45e18c605a88ca749b1a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-06 07:13:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>43689ea3a9e244aa87c37044e83d6e69</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Best Sellers.Click</Name>
+    <Description />
+    <StartTime>2022-07-06 07:13:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Best Sellers]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Best Sellers]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>45da7c9268cd4b3b93e51a26544fae41</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-06 07:13:24</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>a6aae1d4996e496ba9fc80d9a3ea5cad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Most Gifted.Click</Name>
+    <Description />
+    <StartTime>2022-07-06 07:13:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon.in Bestsellers:]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Most Gifted]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//LI/DIV/A[normalize-space()="Most Gifted"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Most Gifted]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[Most Gifted]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;a href="/gp/most-gifted/ref=zg_bs_tab"&gt;Most Gifted&lt;/a&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Most Gifted]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[Most Gifted]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[href]]></Name>
+            <Value><![CDATA[https://www.amazon.in/gp/most-gifted/ref=zg_bs_tab]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>45da7c9268cd4b3b93e51a26544fae41</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon.in Bestsellers:</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-06 07:13:26</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon.in Bestsellers:]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>a6aae1d4996e496ba9fc80d9a3ea5cad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Browser</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-06 07:13:24</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>feff710d6a2c407bac177dd2ada08b6d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Most Gifted</Name>
+    <Description>Pass</Description>
+    <StartTime>2022-07-06 07:13:29</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>769f46eea0094d0db844a3075bc64f29</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-06 07:13:16</StartTime>
+    <Duration>13</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>4025e8b138e94f4087ba2f255f97c9d0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AmazonProject</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-06 07:13:12</StartTime>
+    <Duration>17</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>a24bd80c263f4c54a508db7e83477eae</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user239</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-21</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res267</ResultName>
+    <RunStartTime>2022-07-06 07:13:12</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

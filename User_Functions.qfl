@@ -1,0 +1,333 @@
+﻿
+Function NewReleases()
+Browser("creationtime:=0").Page("micclass:=Page").Link("innerhtml:=New Releases").Highlight	
+Browser("creationtime:=0").Page("micclass:=Page").Link("innerhtml:=New Releases").Click	
+End Function
+
+
+'TC_001-AM-35
+
+Function Bestsellers()
+Dim searchString, resultString
+searchString=DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+Browser(browserObject).Page(pageObject).Link(clickNewR).Highlight
+Browser(browserObject).Page(pageObject).Link(clickNewR).Click
+wait(2)
+Browser(browserObject).Page(pageObject).Link(clickBs).Highlight
+Browser(browserObject).Page(pageObject).Link(clickBs).Click
+
+resultString=Browser(browserObject).Page(pageObject).WebElement(ch1).GetROProperty("text")
+
+If Instr(searchString,resultString) >= 0 Then
+Reporter.ReportEvent micPass,"Amazon.in Bestsellers: The most popular items on Amazon","Pass"
+Else
+Reporter.ReportEvent micFail,"Amazon.in Bestsellers: The most popular items on Amazon","Fail"	
+End If
+If Instr(searchString,resultString) >=0 Then
+Bestsellers="Pass"
+Else
+Bestsellers="Fail"
+End If
+End Function
+
+
+'TC_002-AM-39
+
+Function Amazon_Launchpad()
+Dim searchString,resultString
+searchString =DataTable.Value("Expected_Value","TestData1") 
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+Browser(browserObject).Page(pageObject).Link( clickNewR).Click
+Browser(browserObject).Page(pageObject).Link(clickBs).Click
+wait(2)
+Browser(browserObject).Page(pageObject).Link(amzL).Click
+
+resultString=Browser(browserObject).Page(pageObject).WebElement(chAmzL).GetROProperty("text")
+
+If Instr(resultString,searchString) >=0 Then
+Reporter.ReportEvent micPass,"Amazon Launchpad", "Pass"
+Else
+Reporter.ReportEvent micFail,"Amazon Launchpad","Fail"	
+End If
+
+If Instr(resultString,searchString) >=0 Then
+Amazon_Launchpad="Pass"
+Else
+Amazon_Launchpad="Fail"
+End If
+End Function
+
+
+'TC_003-AM-40
+
+Function Apps_for_Android()
+
+Dim searchString,resultString
+searchString =DataTable.Value("Expected_Value","TestData1")
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+Browser(browserObject).Page(pageObject).Link(clickNewR).Click
+wait(2)
+Browser(browserObject).Page(pageObject).Link(clickBs).Click
+wait(2)
+Browser(browserObject).Page(pageObject).Link( aFA).Click
+wait(2)
+Browser(browserObject).Page(pageObject).WebElement( aFA1).Click
+
+resultString=Browser(browserObject).Page(pageObject).WebElement(chAFA).GetROProperty("text")
+If Instr(resultString,searchString) >=0 Then
+Reporter.ReportEvent micPass,"Apps for Android", "Pass"
+Else
+Reporter.ReportEvent micFail,"Apps for Android","Fail"	
+End If	
+If Instr(resultString,searchString) >=0 Then
+Apps_for_Android="Pass"
+Else
+Apps_for_Android="Fail"
+End If
+End Function
+
+
+'TC_004-AM-41
+
+Function Audio()
+	
+Dim searchString, resultString
+searchString =DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+Browser(browserObject).Page(pageObject).Link(clickNewR).Highlight
+Browser(browserObject).Page(pageObject).Link(clickNewR).Click
+wait(2)
+Browser(browserObject).Page(pageObject).Link(clickBs).Highlight
+Browser(browserObject).Page(pageObject).Link(clickBs).Click
+wait(2)
+Browser(browserObject).Page(pageObject).Link( audB).Highlight
+Browser(browserObject).Page(pageObject).Link( audB).Click
+wait(2)
+Browser(browserObject).Page(pageObject).WebElement(audB1).Highlight
+Browser(browserObject).Page(pageObject).WebElement(audB1).Click
+wait(2)
+resultString=Browser(browserObject).Page(pageObject).WebElement( chAudB1).GetROProperty("text")
+
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Amazon.in Bestsellers: The most popular items in Arts & Entertainment", "Pass"
+Else
+Reporter.ReportEvent micFail,"Amazon.in Bestsellers: The most popular items in Arts & Entertainment","Fail"	
+End If	
+If Instr(searchString,resultString) >=0 Then
+Audio = "Pass"
+Else
+Audio= "Fail"
+End If
+End Function
+
+
+'TC_005-AM-45
+
+Function Baby()
+
+Dim searchString,resultString
+searchString=DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+Browser(browserObject).Page(pageObject).Link(clickNewR).Highlight
+Browser(browserObject).Page(pageObject).Link(clickNewR).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(clickBs).Highlight
+Browser(browserObject).Page(pageObject).Link(clickBs).Click
+wait(2)
+Browser(browserObject).Page(pageObject).Link(bP).Highlight
+Browser(browserObject).Page(pageObject).Link(bP).Click
+wait(2)
+Browser(browserObject).Page(pageObject).Link(bP1).Highlight
+Browser(browserObject).Page(pageObject).Link(bP1).Click
+wait(2)
+
+resultString=Browser(browserObject).Page(pageObject).WebElement(chBP).GetROProperty("text")
+
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Amazon.in Bestsellers: The most popular items in Baby Shoes", "Pass"
+Else
+Reporter.ReportEvent micFail,"Amazon.in Bestsellers: The most popular items in Baby Shoes","Fail"	
+End If	
+If Instr(searchString,resultString) >=0 Then
+BabyShoes="Pass"
+Else
+BabyShoes="Fail"
+End If
+End Function
+
+
+
+'TC_006-AM-47
+
+Function Beauty()
+Dim resultString,searchString
+searchString=DataTable.Value("Expected_Value","TestData1")
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1")) 
+Browser(browserObject).Page(pageObject).Link( clickNewR).Highlight
+Browser(browserObject).Page(pageObject).Link( clickNewR).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(clickBs).Highlight
+Browser(browserObject).Page(pageObject).Link(clickBs).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(btY).Highlight
+Browser(browserObject).Page(pageObject).Link(btY).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(skinCare).Highlight
+Browser(browserObject).Page(pageObject).Link(skinCare).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(facE).Highlight
+Browser(browserObject).Page(pageObject).Link(facE).Click
+resultString=Browser(browserObject).Page(pageObject).WebElement(ckBeuty).GetROProperty("text")
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Face related products", "Pass"
+Else
+Reporter.ReportEvent micFail,"Face related products","Fail"	
+End If	
+If Instr(searchString,resultString) >=0 Then
+Beauty="Pass"
+Else
+Beauty="Pass"
+End If
+End Function
+
+
+'TC_007-AM-53
+
+Function Car()
+Dim resultString,searchString
+searchString=DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1")) 
+Browser(browserObject).Page(pageObject).Link( clickNewR).Click
+Browser(browserObject).Page(pageObject).Link(clickBs).Click
+wait (3)
+Browser(browserObject).Page(pageObject).Link(carM).Highlight
+Browser(browserObject).Page(pageObject).Link(carM).Click
+wait (3)
+Browser(browserObject).Page(pageObject).WebElement(carMc).Highlight
+Browser(browserObject).Page(pageObject).WebElement(carMc).Click
+wait (3)
+resultString=Browser(browserObject).Page(pageObject).WebElement(chCarM).GetROProperty("text")	
+
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Car & Motorbike Care", "Pass"
+Else
+Reporter.ReportEvent micFail,"Car & Motorbike Care","Fail"	
+End If
+If Instr(searchString,resultString) >=0 Then
+Car="Pass"
+Else
+Car="Fail"
+End If
+End Function
+
+
+
+'TC_008-AM-59
+
+Function Girls()	
+Dim resultString,searchString
+searchString=DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1")) 
+
+Browser(browserObject).Page(pageObject).Link( clickNewR).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(clickBs).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link( clothA).Highlight
+Browser(browserObject).Page(pageObject).Link( clothA).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(grlS ).Highlight
+Browser(browserObject).Page(pageObject).Link(grlS ).Click
+resultString=Browser(browserObject).Page(pageObject).WebElement(chGrls).GetROProperty("text")
+
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Bestsellers in Girl's clothing", "Pass"
+Else
+Reporter.ReportEvent micFail,"Bestsellers in Girl's clothing","Fail"	
+End If	
+If Instr(searchString,resultString) >=0 Then
+GirlsClothing = "Pass"
+Else
+GirlsClothing = "Fail"
+End If
+End Function
+
+
+'TC_009-AM-63
+
+Function Computer()
+Dim resultString,searchString
+searchString=DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1")) 
+Browser(browserObject).Page(pageObject).Link(clickNewR ).Highlight
+Browser(browserObject).Page(pageObject).Link(clickNewR ).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(clickBs ).Highlight
+Browser(browserObject).Page(pageObject).Link(clickBs ).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(compA ).Highlight
+Browser(browserObject).Page(pageObject).Link(compA ).Click
+wait(2)
+Browser(browserObject).Page(pageObject).Link(accessR ).Highlight
+Browser(browserObject).Page(pageObject).Link(accessR ).Click
+resultString=Browser(browserObject).Page(pageObject).WebElement(chAccess ).GetROProperty("text")
+
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Bestsellers in Computer Accessories & Peripherals", "Pass"
+Else
+Reporter.ReportEvent micFail,"Bestsellers in Computer Accessories & Peripherals","Fail"	
+End If	
+If Instr(searchString,resultString) >=0 Then
+Computer="Pass"
+Else
+Computer="Fail"
+End If
+End Function
+
+
+'TC_010-AM-68
+
+Function Garden()
+
+Dim resultString,searchString
+searchString=DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+Browser(browserObject).Page(pageObject).Link(clickNewR ).Highlight
+Browser(browserObject).Page(pageObject).Link(clickNewR ).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(clickBs ).Highlight
+Browser(browserObject).Page(pageObject).Link(clickBs ).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(grdn ).Highlight
+Browser(browserObject).Page(pageObject).Link(grdn ).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(backyard ).Highlight
+Browser(browserObject).Page(pageObject).Link(backyard ).Click
+wait (2)
+Browser(browserObject).Page(pageObject).Link(birdF ).Highlight
+Browser(browserObject).Page(pageObject).Link(birdF ).Click
+wait (2)
+resultString=Browser(browserObject).Page(pageObject).WebElement(chBrd ).GetROProperty("text")
+
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Bestsellers in Bird Feeders", "Pass"
+Else
+Reporter.ReportEvent micFail,"Bestsellers in Bird Feeders","Fail"	
+End If	
+If Instr(searchString,resultString) >=0 Then
+Garden="Pass"
+Else
+Garden="Fail"
+End If
+End Function
+
+

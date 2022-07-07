@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Transaction">
+<Data>
+    <Name>Bestsellers</Name>
+    <Description>Transaction "Bestsellers" started.</Description>
+    <StartTime>2022-07-05 09:34:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>6087b238a42c47b49bdfd8a63f0fd433</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Bestsellers</Name>
+    <Description>Transaction "Bestsellers" ended with "Pass" status (Total Duration: 0.0270 sec).</Description>
+    <StartTime>2022-07-05 09:34:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>ebcb7fac99f14a6eaa45fa4dbbae1d1e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Amazon_Launchpad</Name>
+    <Description>Transaction "Amazon_Launchpad" started.</Description>
+    <StartTime>2022-07-05 09:34:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>6087b238a42c47b49bdfd8a63f0fd433</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Amazon_Launchpad</Name>
+    <Description>Transaction "Amazon_Launchpad" ended with "Pass" status (Total Duration: 0.0120 sec).</Description>
+    <StartTime>2022-07-05 09:34:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>ebcb7fac99f14a6eaa45fa4dbbae1d1e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Apps_for_Android</Name>
+    <Description>Transaction "Apps_for_Android" started.</Description>
+    <StartTime>2022-07-05 09:34:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>6087b238a42c47b49bdfd8a63f0fd433</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Apps_for_Android</Name>
+    <Description>Transaction "Apps_for_Android" ended with "Pass" status (Total Duration: 0.2640 sec).</Description>
+    <StartTime>2022-07-05 09:34:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>ebcb7fac99f14a6eaa45fa4dbbae1d1e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Audio</Name>
+    <Description>Transaction "Audio" started.</Description>
+    <StartTime>2022-07-05 09:34:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>6087b238a42c47b49bdfd8a63f0fd433</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Audio</Name>
+    <Description>Transaction "Audio" ended with "Pass" status (Total Duration: 0.0130 sec).</Description>
+    <StartTime>2022-07-05 09:34:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>ebcb7fac99f14a6eaa45fa4dbbae1d1e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Baby</Name>
+    <Description>Transaction "Baby" started.</Description>
+    <StartTime>2022-07-05 09:34:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>6087b238a42c47b49bdfd8a63f0fd433</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Baby()</Name>
+    <Description>Failed to end transaction "Baby()". Confirm that there is a corresponding StartTransaction step.</Description>
+    <StartTime>2022-07-05 09:34:36</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>ebcb7fac99f14a6eaa45fa4dbbae1d1e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e68af631-e871-4c77-9d42-1531dbac924f.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'bP1'</Name>
+    <ErrorText>Type mismatch: 'bP1'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\Users\user239\Documents\AmazonProject\Descriptive_Objects.qfl&lt;BR/&gt;Line (45): &amp;quot; bP1(&amp;quot;innertext&amp;quot;).value = &amp;quot;Baby Shoes&amp;quot;&amp;quot;.</Description>
+    <StartTime>2022-07-05 09:34:37</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\user239\Documents\AmazonProject\Descriptive_Objects.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[bP1("innertext").value = "Baby Shoes"]]></Scripts>
+          <LineNo><![CDATA[45]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[]]></ModuleName>
+          <FileName><![CDATA[]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[VBScript global code]]></Scripts>
+          <LineNo><![CDATA[0]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>7235bef451c24e21b6f1ac756f604d15</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\9be0db28-6129-47dd-ba5f-3f0e4a0d04ec.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Run Error</Name>
+    <Description>General run error.</Description>
+    <StartTime>2022-07-05 09:34:43</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>6f60f3dc41574f8192d69f5497977dfe</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\f6962a00-ea71-44f0-9aaa-96fec7a642ef.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AmazonProject</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-05 09:34:32</StartTime>
+    <Duration>11</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>745abf37a6a047c5bbd477ebcb186444</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user239</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-21</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res149</ResultName>
+    <RunStartTime>2022-07-05 09:34:32</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

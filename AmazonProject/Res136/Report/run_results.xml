@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Transaction">
+<Data>
+    <Name>Bestsellers</Name>
+    <Description>Transaction "Bestsellers" started.</Description>
+    <StartTime>2022-07-05 00:45:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>394ec631affb4e9696094545aa4dad7c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Bestsellers</Name>
+    <Description>Transaction "Bestsellers" ended with "Pass" status (Total Duration: 0.0479 sec).</Description>
+    <StartTime>2022-07-05 00:45:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>d92c1e1943fa4749baf50dbd58c42630</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Amazon_Launchpad</Name>
+    <Description>Transaction "Amazon_Launchpad" started.</Description>
+    <StartTime>2022-07-05 00:45:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>394ec631affb4e9696094545aa4dad7c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Amazon_Launchpad</Name>
+    <Description>Transaction "Amazon_Launchpad" ended with "Pass" status (Total Duration: 0.0350 sec).</Description>
+    <StartTime>2022-07-05 00:45:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>d92c1e1943fa4749baf50dbd58c42630</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Apps_for_Android</Name>
+    <Description>Transaction "Apps_for_Android" started.</Description>
+    <StartTime>2022-07-05 00:45:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>394ec631affb4e9696094545aa4dad7c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Apps_for_Android</Name>
+    <Description>Transaction "Apps_for_Android" ended with "Pass" status (Total Duration: 0.0415 sec).</Description>
+    <StartTime>2022-07-05 00:45:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>d92c1e1943fa4749baf50dbd58c42630</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Audio</Name>
+    <Description>Transaction "Audio" started.</Description>
+    <StartTime>2022-07-05 00:45:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>394ec631affb4e9696094545aa4dad7c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Audio</Name>
+    <Description>Transaction "Audio" ended with "Pass" status (Total Duration: 0.0218 sec).</Description>
+    <StartTime>2022-07-05 00:45:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>d92c1e1943fa4749baf50dbd58c42630</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Baby</Name>
+    <Description>Transaction "Baby" started.</Description>
+    <StartTime>2022-07-05 00:45:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>394ec631affb4e9696094545aa4dad7c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Baby()</Name>
+    <Description>Failed to end transaction "Baby()". Confirm that there is a corresponding StartTransaction step.</Description>
+    <StartTime>2022-07-05 00:45:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>d92c1e1943fa4749baf50dbd58c42630</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\f0e4c9ab-405a-4d0d-92ec-e3d4f1b566ca.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-05 00:45:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>a43573fe4b414757865a35d6ce42ac0c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Link ].Click</Name>
+    <Description />
+    <StartTime>2022-07-05 00:45:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Link ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>ca8e799080b9448184a16b581c99b34c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Bestsellers ].Click</Name>
+    <Description />
+    <StartTime>2022-07-05 00:45:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Amazon.in Hot New Releases: The bestselling new and future releases on Amazon ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Amazon.in Hot New Releases: The bestselling new and future releases on Amazon ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Bestsellers ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>ca8e799080b9448184a16b581c99b34c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebElement ]</Name>
+    <ErrorText>The "[ WebElement ]" object's description matches more than one of the objects currently displayed in your application. Add additional properties to the object description in order to uniquely identify the object.</ErrorText>
+    <Description>The&amp;nbsp;"[&amp;nbsp;WebElement&amp;nbsp;]"&amp;nbsp;object's&amp;nbsp;description&amp;nbsp;matches&amp;nbsp;more&amp;nbsp;than&amp;nbsp;one&amp;nbsp;of&amp;nbsp;the&amp;nbsp;objects&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&amp;nbsp;Add&amp;nbsp;additional&amp;nbsp;properties&amp;nbsp;to&amp;nbsp;the&amp;nbsp;object&amp;nbsp;description&amp;nbsp;in&amp;nbsp;order&amp;nbsp;to&amp;nbsp;uniquely&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;object.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = WebElement&lt;br&gt;innertext = Baby Products&lt;br&gt;</Description>
+    <StartTime>2022-07-05 00:45:53</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\user239\Documents\AmazonProject\User_Functions.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[Baby]]></FunctionName>
+          <Scripts><![CDATA[Browser(browserObject).Page(pageObject).WebElement(bP).Click]]></Scripts>
+          <LineNo><![CDATA[88]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Baby()]]></Scripts>
+          <LineNo><![CDATA[9]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Amazon.in Bestsellers: The most popular items on Amazon ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Amazon.in Bestsellers: The most popular items on Amazon ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[[ WebElement ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The&nbsp;"[&nbsp;WebElement&nbsp;]"&nbsp;object's&nbsp;description&nbsp;matches&nbsp;more&nbsp;than&nbsp;one&nbsp;of&nbsp;the&nbsp;objects&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.&nbsp;Add&nbsp;additional&nbsp;properties&nbsp;to&nbsp;the&nbsp;object&nbsp;description&nbsp;in&nbsp;order&nbsp;to&nbsp;uniquely&nbsp;identify&nbsp;the&nbsp;object.]]></OperationData>
+      </TestObject>
+      <IconKey>c826939b4c884d7fac6e0c4f57d7c7f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\64d86f1a-c1ce-43e9-a7b9-14004b9e8d58.jpeg" highlight="0,0,1280,568" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-07-05 00:46:47</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>8ef19db326df4f9f9f46d1d2b2da1d63</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-05 00:45:40</StartTime>
+    <Duration>67</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>6983d27e8f2842ef8d8c979c4aefaa56</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AmazonProject</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-05 00:45:36</StartTime>
+    <Duration>71</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>b9c16414c1b644439d4f73f1a0b03649</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user239</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-21</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res136</ResultName>
+    <RunStartTime>2022-07-05 00:45:36</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

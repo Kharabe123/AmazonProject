@@ -1,0 +1,120 @@
+﻿'Bestsellers
+Set browserObject = Description.Create
+browserObject("creationtime").value = "0"
+
+Set pageObject = Description.Create
+pageObject("micclass").value = "Page"
+
+Set clickNewR = Description.Create
+clickNewR("innerhtml").value = "New Releases"
+
+Set clickBs = Description.Create
+ clickBs("innertext").value = "Bestsellers"
+
+Set ch1 = Description.Create
+ ch1("html id").value = "zg_banner_text"
+ 
+ 
+ 'Amazon_Launchpad
+ Set amzL = Description.Create
+ amzL("outertext").value = "Amazon Launchpad"
+
+Set  chAmzL = Description.Create
+chAmzL("xpath").value = "//DIV[@id='zg-left-col']/DIV/DIV[@role='tree']/DIV/DIV[@role='treeitem' and normalize-space()='Amazon Launchpad']"
+
+'Apps for android
+Set aFA = Description.Create
+aFA("href").value = "https://www.amazon.in/gp/bestsellers/mobile-apps/ref=zg_bs_nav_0"
+
+ Set aFA1 = Description.Create
+ aFA1("innerhtml").value = "Top 100 Paid"
+ 
+  Set chAFA = Description.Create
+ chAFA("outertext").value = "Top 100 Paid"
+
+'Audio
+Set audB = Description.Create
+audB("name").value = "Audible Books & Originals"
+ 
+ Set audB1 = Description.Create
+ audB1("innerhtml").value = "Arts &amp; Entertainment"
+ 
+  Set chAudB1 = Description.Create
+ chAudB1("innerhtml").value = "Arts &amp; Entertainment"
+ 
+ 'Baby()
+ Set bP=Description.Create
+ bP("xpath").value = "//DIV[@role='treeitem']/A[normalize-space()='Baby Products']"
+ 
+ Set bP1=Description.Create
+ bP1("xpath").value = "//DIV[@role='treeitem']/A[normalize-space()='Baby Shoes']"
+ 
+ Set chBP=Description.Create
+ chBP("xpath").value = "//DIV[@id='zg-right-col']/DIV[1]/DIV[1]/DIV[1]/H1[1]"
+ 
+ 'Beauty-AM-47
+ Set btY=Description.Create
+btY("xpath").value = "//DIV[@role='treeitem']/A[normalize-space()='Beauty']"
+ 
+ Set skinCare = Description.Create
+ skinCare("xpath").value = "//DIV[@role='treeitem' and normalize-space()='Skin Care']/A[1]"
+ 
+ Set facE = Description.Create
+  facE("innertext").value = "Face"
+ 
+ Set ckBeuty = Description.Create
+ ckBeuty("xpath").value = "//DIV[@id='zg-left-col']/DIV/DIV[@role='tree']/DIV/DIV/DIV/DIV[@role='treeitem']/SPAN[normalize-space()='Face']"
+ 
+ 'car & motorbike-AM-53
+ 
+ Set carM = Description.Create
+ carM("innerhtml").value = "Car &amp; Motorbike"
+ 
+ Set carMc = Description.Create
+ carMc("xpath").value = "//LI/SPAN[normalize-space()='Car & Motorbike Care']/A[1]/SPAN[1]"
+  
+ Set chCarM = Description.Create
+chCarM("xpath").value = "//DIV/UL/LI[normalize-space()='Car & Motorbike Care']"
+  
+'Clothing-AM-59
+
+Set clothA = Description.Create
+clothA("innerhtml").value = "Clothing &amp; Accessories"
+
+Set grlS = Description.Create
+grlS("xpath").value = "//DIV[@role='treeitem']/A[normalize-space()='Girls']"
+
+Set chGrls = Description.Create
+chGrls("xpath").value = "//DIV[@id='zg-right-col']/DIV[1]/DIV[1]/DIV[1]/H1[1]"
+
+ 'Computer & Accessories-AM-63
+Set compA = Description.Create
+compA("innertext").value = "Computers & Accessories"
+ 
+Set accessR = Description.Create
+accessR("xpath").value = "//DIV[@role='treeitem']/A[normalize-space()='Accessories']"
+ 
+Set chAccess = Description.Create
+chAccess("xpath").value = "//DIV[@id='zg-right-col']/DIV[1]/DIV[1]/DIV[1]/H1[1]"
+
+'Garden & outdoors-AM-68
+Set grdn = Description.Create
+grdn("xpath").value = "//DIV[@role='treeitem']/A[normalize-space()='Garden & Outdoors']"
+
+Set backyard = Description.Create
+backyard("xpath").value = "//DIV[@id='zg-left-col']/DIV[1]/DIV[@role='tree'][1]/DIV[2]/DIV[@role='group'][1]/DIV[@role='treeitem'][1]/A[1]"
+
+Set birdF= Description.Create
+birdF("xpath").value = "//DIV[@role='treeitem']/A[normalize-space()='Bird Feeders']"
+
+Set chBrd = Description.Create
+chBrd("xpath").value = "//DIV[@id='zg-right-col']/DIV[1]/DIV[1]/DIV[1]/H1[1]"
+
+
+
+
+
+
+
+
+ 

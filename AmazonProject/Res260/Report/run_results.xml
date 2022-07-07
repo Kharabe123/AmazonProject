@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Transaction">
+<Data>
+    <Name>Bestsellers</Name>
+    <Description>Transaction "Bestsellers" started.</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>8cea0fbca1094fe9a2610f6bfc8b622f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Bestsellers</Name>
+    <Description>Transaction "Bestsellers" ended with "Pass" status (Total Duration: 0.1245 sec).</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e58f96b6d49948f59e78c0fdffa1caa8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Amazon_Launchpad</Name>
+    <Description>Transaction "Amazon_Launchpad" started.</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>8cea0fbca1094fe9a2610f6bfc8b622f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Amazon_Launchpad</Name>
+    <Description>Transaction "Amazon_Launchpad" ended with "Pass" status (Total Duration: 0.0286 sec).</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e58f96b6d49948f59e78c0fdffa1caa8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Apps_for_Android</Name>
+    <Description>Transaction "Apps_for_Android" started.</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>8cea0fbca1094fe9a2610f6bfc8b622f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Apps_for_Android</Name>
+    <Description>Transaction "Apps_for_Android" ended with "Pass" status (Total Duration: 0.0543 sec).</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e58f96b6d49948f59e78c0fdffa1caa8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Audio</Name>
+    <Description>Transaction "Audio" started.</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>8cea0fbca1094fe9a2610f6bfc8b622f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Audio</Name>
+    <Description>Transaction "Audio" ended with "Pass" status (Total Duration: 0.0576 sec).</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e58f96b6d49948f59e78c0fdffa1caa8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Baby</Name>
+    <Description>Transaction "Baby" started.</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>8cea0fbca1094fe9a2610f6bfc8b622f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Baby</Name>
+    <Description>Transaction "Baby" ended with "Pass" status (Total Duration: 0.0110 sec).</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e58f96b6d49948f59e78c0fdffa1caa8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Beauty</Name>
+    <Description>Transaction "Beauty" started.</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>8cea0fbca1094fe9a2610f6bfc8b622f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Beauty</Name>
+    <Description>Transaction "Beauty" ended with "Pass" status (Total Duration: 0.0101 sec).</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e58f96b6d49948f59e78c0fdffa1caa8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Car</Name>
+    <Description>Transaction "Car" started.</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>8cea0fbca1094fe9a2610f6bfc8b622f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Car</Name>
+    <Description>Transaction "Car" ended with "Pass" status (Total Duration: 0.0119 sec).</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e58f96b6d49948f59e78c0fdffa1caa8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Girls</Name>
+    <Description>Transaction "Girls" started.</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>8cea0fbca1094fe9a2610f6bfc8b622f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Girls</Name>
+    <Description>Transaction "Girls" ended with "Pass" status (Total Duration: 0.0151 sec).</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e58f96b6d49948f59e78c0fdffa1caa8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Computer</Name>
+    <Description>Transaction "Computer" started.</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>8cea0fbca1094fe9a2610f6bfc8b622f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Computer</Name>
+    <Description>Transaction "Computer" ended with "Pass" status (Total Duration: 0.0107 sec).</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e58f96b6d49948f59e78c0fdffa1caa8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>Garden</Name>
+    <Description>Transaction "Garden" started.</Description>
+    <StartTime>2022-07-06 00:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>8cea0fbca1094fe9a2610f6bfc8b622f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-06 00:07:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>29abb0e597e64fd08e638a0acff80a2a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'TC_011'</Name>
+    <ErrorText>Type mismatch: 'TC_011'</ErrorText>
+    <Description>&lt;BR/&gt;Line (16): &amp;quot;TC_011()&amp;quot;.</Description>
+    <StartTime>2022-07-06 00:07:49</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[TC_011()]]></Scripts>
+          <LineNo><![CDATA[16]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>02649da51b1a44a08e11fe378f211e0d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\69d849d8-da2f-4058-851a-a11b61b8c941.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-07-06 00:08:03</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>4bd684bef01d4559ba86a8d3fbcb2004</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-06 00:07:30</StartTime>
+    <Duration>33</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>cb88de4b139740c181a1500fa1f02337</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AmazonProject</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-06 00:07:25</StartTime>
+    <Duration>39</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>5956bd91717e40a7b9e372a3d5b2bdd8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user239</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-21</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res260</ResultName>
+    <RunStartTime>2022-07-06 00:07:25</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

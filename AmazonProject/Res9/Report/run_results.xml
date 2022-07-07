@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-03 12:08:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>0d2850ac7e894c87a74a3aaedd8bfea8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SysListView32.Activate</Name>
+    <Description>"Google Chrome"</Description>
+    <StartTime>2022-07-03 12:08:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Program Manager]]></Name>
+          </Object>
+          <Object>
+            <Type>WinListView</Type>
+            <Name><![CDATA[SysListView32]]></Name>
+          </Object>
+        </Path>
+        <Operation>Activate</Operation>
+        <OperationData><![CDATA["Google Chrome"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[SysListView32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>bb8b5c30f0804aeea63b326c9e95d984</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Program Manager</Name>
+    <Description>Window</Description>
+    <StartTime>2022-07-03 12:08:28</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Program Manager]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Program Manager]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[Progman]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>df63376081c444d3bea563ef018cb2e9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SysListView32.Activate</Name>
+    <ErrorText>Object not visible</ErrorText>
+    <Description>Object&amp;nbsp;not&amp;nbsp;visible&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Native Class = SysListView32&lt;br&gt;</Description>
+    <StartTime>2022-07-03 12:08:28</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action2]]></ModuleName>
+          <FileName><![CDATA[Action2]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Window("Program Manager").WinListView("SysListView32").Activate "Google Chrome"]]></Scripts>
+          <LineNo><![CDATA[4]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Program Manager]]></Name>
+          </Object>
+          <Object>
+            <Type>WinListView</Type>
+            <Name><![CDATA[SysListView32]]></Name>
+          </Object>
+        </Path>
+        <Operation>Activate</Operation>
+        <OperationData><![CDATA["Google Chrome"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[SysListView32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>bb8b5c30f0804aeea63b326c9e95d984</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\f8f9d2b8-849e-4754-972e-e77913cd0f80.jpeg" highlight="0,0,1366,656" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-07-03 12:08:32</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>58c4ba8eee55446eac72966e205f160a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Program Manager</Name>
+    <Description>Window</Description>
+    <StartTime>2022-07-03 12:08:28</StartTime>
+    <Duration>4</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Program Manager]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Program Manager]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[Progman]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>df63376081c444d3bea563ef018cb2e9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action2</Name>
+    <Description />
+    <StartTime>2022-07-03 12:08:27</StartTime>
+    <Duration>5</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>48ba0782c00543108efa8dc98204778a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AmazonProject</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-03 12:08:13</StartTime>
+    <Duration>19</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>aa66a035cedb4ee4926cfed2013717b2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user239</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-21</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res9</ResultName>
+    <RunStartTime>2022-07-03 12:08:13</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

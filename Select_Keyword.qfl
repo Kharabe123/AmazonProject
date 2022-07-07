@@ -1,0 +1,107 @@
+﻿Function executeTest(TestCaseID)
+	Select Case TestCaseID
+	
+		Case "TC_001"
+		   services.StartTransaction"TC_001"
+		      Environment.Value("Result")=Bestsellers()
+		   services.EndTransaction"TC_001"  
+		    
+		 Case "TC_002"
+		   services.StartTransaction"TC_002"
+		      Environment.Value("Result")=Amazon_Launchpad()
+		   services.EndTransaction"TC_002"    
+		    
+		  Case "TC_003"
+		   services.StartTransaction"TC_003"
+                    Environment.Value("Result")=Apps_for_Android()
+           	   services.EndTransaction"TC_003"    
+		    
+		  Case "TC_004"
+		   services.StartTransaction"TC_004"
+		      Environment.Value("Result")=Audio()
+		   services.EndTransaction"TC_004"    
+		    
+		   Case "TC_005"
+		   services.StartTransaction"TC_005"
+		      Environment.Value("Result")=Baby()
+		   services.EndTransaction"TC_005"   
+		    
+		    Case "TC_006"
+		   services.StartTransaction"TC_006"
+		      Environment.Value("Result")=Beauty()
+		   services.EndTransaction"TC_006"  
+		    
+		    
+		    Case "TC_007"
+		   services.StartTransaction"TC_007"
+		      Environment.Value("Result")= Car()
+		   services.EndTransaction"TC_007"  
+		    
+		    Case "TC_008"
+		   services.StartTransaction"TC_008"
+		      Environment.Value("Result")=Girls()
+		   services.EndTransaction"TC_008"  
+		    
+		    Case "TC_009"
+		   services.StartTransaction"TC_009"
+		      Environment.Value("Result")=Computer()
+		   services.EndTransaction"TC_009"  
+		    
+		    Case "TC_010"
+		   services.StartTransaction"TC_010"
+		      Environment.Value("Result")=Garden()
+		   services.EndTransaction"TC_010"  
+		    
+		    Case "TC_011"
+		   services.StartTransaction"TC_011"
+		      Environment.Value("Result")=Mostgifted()
+		   services.EndTransaction"TC_011"  
+		    
+		    Case "TC_012"
+		   services.StartTransaction"TC_012"
+		      Environment.Value("Result")=GiftCards()
+		   services.EndTransaction"TC_012"  
+		    
+		    Case "TC_013"
+		   services.StartTransaction"TC_013"
+		      Environment.Value("Result")=Grocery()
+		   services.EndTransaction"TC_013"  
+		    
+		    Case "TC_014"
+		   services.StartTransaction"TC_014"
+		      Environment.Value("Result")=Health()
+		   services.EndTransaction"TC_014"  
+		    
+		    Case "TC_015"
+		   services.StartTransaction"TC_015"
+		      Environment.Value("Result")=Home_Improvement()
+		   services.EndTransaction"TC_015"  
+		    
+		    Case "TC_016"
+		   services.StartTransaction"TC_016"
+		      Environment.Value("Result")=Jewellary()
+		   services.EndTransaction"TC_016"  
+		    
+		    Case "TC_017"
+		   services.StartTransaction"TC_017"
+		      Environment.Value("Result")=Most_Wished()
+		   services.EndTransaction"TC_017"  
+		    
+		    Case "TC_018"
+		   services.StartTransaction"TC_018"
+		      Environment.Value("Result")= Music()
+		   services.EndTransaction"TC_018"  
+		   
+		   
+		    Case "TC_019"
+		   services.StartTransaction"TC_019"
+		      Environment.Value("Result")=Officeproduct()
+		   services.EndTransaction"TC_019"  
+		   
+		   
+		    Case "TC_020"
+		   services.StartTransaction"TC_020"
+		      Environment.Value("Result")=Watches()
+		   services.EndTransaction"TC_020"  
+	End Select
+End Function

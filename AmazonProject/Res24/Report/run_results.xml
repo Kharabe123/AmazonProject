@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Invalid character</Name>
+    <ErrorText>Invalid character</ErrorText>
+    <Description>&lt;BR/&gt;Line (8): &amp;quot;Browser(&amp;quot;creationtime:=0&amp;quot;).Page(&amp;quot;URL:=https://www.amazon.in&amp;quot;).WebElement(&amp;quot;outerhtml:=&amp;lt;div class=&amp;quot;_p13n-zg-nav-tab-all_style_zg-tabs-li-div__1YdPR&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/gp/bestsellers/ref=zg_bsnr_tab&amp;quot;&amp;gt;Bestsellers&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;s&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2022-07-03 13:27:47</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>f0bd030eacf5476d8c56a2c9a50d77be</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4eca25d9-544d-417f-88d6-69b901cff914.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-07-03 13:28:01</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>65822bae178f40eea524baae60d353b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action2</Name>
+    <Description />
+    <StartTime>2022-07-03 13:27:47</StartTime>
+    <Duration>14</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>aa28b278651b450b85e39713386827e6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AmazonProject</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-03 13:27:33</StartTime>
+    <Duration>28</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>7ae5d95c3641473683284fe307956d4d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user239</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-21</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res24</ResultName>
+    <RunStartTime>2022-07-03 13:27:33</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

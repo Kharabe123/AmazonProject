@@ -1,0 +1,291 @@
+﻿'TC_11
+Function Mostgifted()
+Dim searchString,resultString
+searchString =DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Click
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Gifted").Highlight
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Gifted").Click
+resultString=Browser("Browser").Page("Amazon.in Most Gifted:").WebElement("Amazon Gift IdeasOur most").GetROProperty("text")
+
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Amazon Gift IdeasOur most popular products ordered as gifts. Updated daily", "Pass"
+Else
+Reporter.ReportEvent micFail,"Amazon Gift IdeasOur most popular products ordered as gifts. Updated daily","Fail"	
+End If
+If Instr(searchString,resultString) >=0 Then
+Mostgifted="Pass"
+Else
+Mostgifted="Fail"
+End If
+End Function
+
+'TC_12
+Function GiftCards()
+Dim searchString, resultString
+searchString =DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Click
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Gift Cards").Highlight
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Gift Cards").Click
+Browser("Browser").Page("Amazon.in Bestsellers:_20").Link("Anniversary").Highlight
+Browser("Browser").Page("Amazon.in Bestsellers:_20").Link("Anniversary").Click
+resultString=Browser("Browser").Page("Amazon.in Most Gifted:_14").WebElement("Anniversary").GetROProperty("text")
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Amazon.in Bestsellers: The most popular Gifts in Anniversary", "Pass"
+Else
+Reporter.ReportEvent micFail,"Amazon.in Bestsellers: The most popular Gifts in Anniversary","Fail"	
+End If
+If Instr(searchString,resultString) >=0 Then
+GiftCards="Pass"
+Else
+GiftCards="Fail"
+End If
+End Function
+
+'TC_13
+Function Grocery()
+
+Dim searchString, resultString
+searchString  =DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Click
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Gifted").Click
+Browser("Browser").Page("Amazon.in Most Gifted:").Link("Grocery & Gourmet Foods").Click
+Browser("Browser").Page("Amazon.in Most Gifted:_5").Link("Pickles").Click
+
+resultString=Browser("Browser").Page("Amazon.in Most Gifted:_6").Link("Mango").GetROProperty("text")
+ 
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Grocery & Gourmet Food","Pass"
+Else
+Reporter.ReportEvent micFail,"Grocery & Gourmet Food","Fail"	
+End If	
+If Instr(searchString,resultString) >=0 Then
+Grocery="Pass"
+Else
+Grocery="Fail"
+End If
+End Function
+
+'TC_014
+Function Health()
+Dim searchString,resultString
+searchString =DataTable.Value("Expected_Value","TestData1")
+
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Gifted").Highlight
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Gifted").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Most Gifted:").Link("Health & Personal Care").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Most Gifted:_7").Link("Bath & Shower").Click
+
+resultString=Browser("Browser").Page("Amazon.in Most Gifted:_8").WebElement("Bathing Accessories").GetROProperty("text")
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Health & Personal Care", "Pass"
+Else
+Reporter.ReportEvent micFail,"Health & Personal Care","Fail"	
+End If
+If Instr(searchString,resultString) >=0 Then
+Health="Pass"
+Else
+Health="Fail"
+End If
+End Function
+
+'TC-015
+Function Home_Improvement()
+Dim searchString, resultString
+searchString =DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Click
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Gifted").Highlight
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Gifted").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Most Gifted:").Link("Home Improvement").Highlight
+Browser("Browser").Page("Amazon.in Most Gifted:").Link("Home Improvement").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Most Gifted:_9").Link("Cleaning Supplies").Highlight
+Browser("Browser").Page("Amazon.in Most Gifted:_9").Link("Cleaning Supplies").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Most Gifted:_10").Link("Brushes").Highlight
+Browser("Browser").Page("Amazon.in Most Gifted:_10").Link("Brushes").Click
+resultString=Browser("Browser").Page("Amazon.in Most Gifted:_11").WebElement("Brushes").GetROProperty("text")
+
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Home_Improvement() ", "Pass"
+Else
+Reporter.ReportEvent micFail,"Home_Improvement()","Fail"	
+End If	
+If Instr(searchString,resultString) >=0 Then
+Home_Improvement="Pass"
+Else
+Home_Improvement="Fail"
+End If
+End Function 
+
+'TC_016-AM-110
+
+Function Jewellary()
+Dim resultString,searchString
+searchString=DataTable.Value("Expected_Value","TestData1") 
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Click
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Gifted").Click
+Browser("Browser").Page("Amazon.in Most Gifted:").Link("Jewellery_3").Highlight
+Browser("Browser").Page("Amazon.in Most Gifted:").Link("Jewellery_3").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Most Gifted:_12").Link("Women_3").Highlight
+Browser("Browser").Page("Amazon.in Most Gifted:_12").Link("Women_3").Click
+wait (2)
+resultString=Browser("Browser").Page("Amazon.in Most Gifted:_13").Link("Anklets").GetROProperty("text")
+
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Anklet", "Pass"
+Else
+Reporter.ReportEvent micFail,"Anklet","Fail"	
+End If	
+ If Instr(searchString,resultString) >=0 Then
+Jewellary= "Pass"
+Else
+Jewellary= "Fail"
+End If
+End Function
+
+'TC_017-AM-116
+Function Most_Wished()
+Dim resultString,searchString
+searchString=DataTable.Value("Expected_Value","TestData1") 
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Wished For").Highlight
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Wished For").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Most Wished").WebElement("Amazon Most Wished ForOur").Click
+resultString=Browser("Browser").Page("Amazon.in Most Wished").WebElement("Amazon Most Wished ForOur_2").GetROProperty("text")
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Amazon Most Wished ForOur products most often added to Wishlists and Registries. Updated daily", "Pass"
+Else
+Reporter.ReportEvent micFail,"Amazon Most Wished ForOur products most often added to Wishlists and Registries. Updated daily","Fail"	
+End If	
+If Instr(searchString,resultString) >=0 Then
+Most_Wished="Pass"
+Else
+Most_Wished="Fail"
+End If
+End Function
+
+'TC_018-AM-118
+Function Music()
+Dim resultString,searchString
+searchString=DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Click
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Wished For").Highlight
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Wished For").Click
+Browser("Browser").Page("Amazon.in Most Wished").Link("Musical Instruments_2").Highlight
+Browser("Browser").Page("Amazon.in Most Wished").Link("Musical Instruments_2").Click
+Browser("Browser").Page("Amazon.in Most Wished_2").Link("DJ & VJ Equipment_2").Highlight
+Browser("Browser").Page("Amazon.in Most Wished_2").Link("DJ & VJ Equipment_2").Click
+resultString=Browser("Browser").Page("Amazon.in Most Wished_3").WebElement("Most Wished For in DJ_2").GetROProperty("text")
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Most Wished For in DJ & VJ Equipment", "Pass"
+Else
+Reporter.ReportEvent micFail,"Most Wished For in DJ & VJ Equipment","Fail"	
+End If
+If Instr(searchString,resultString) >=0 Then
+Music="Pass"
+Else
+Music="Fail"
+End If
+End Function
+
+'TC_019-AM-120
+Function Officeproduct()
+Dim resultString,searchString
+searchString=DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Click
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Wished For").Click
+Browser("Browser").Page("Amazon.in Most Wished").Link("Office Products").Highlight
+Browser("Browser").Page("Amazon.in Most Wished").Link("Office Products").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Most Wished_4").Link("Office Electronics").Highlight
+Browser("Browser").Page("Amazon.in Most Wished_4").Link("Office Electronics").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Most Wished_5").Link("Biometrics").Highlight
+Browser("Browser").Page("Amazon.in Most Wished_5").Link("Biometrics").Click
+wait (2)
+resultString=Browser("Browser").Page("Amazon.in Most Wished_6").WebElement("Most Wished For in Home").GetROProperty("text")
+
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Most Wished For in Home Security & Surveillance Biometrics", "Pass"
+Else
+Reporter.ReportEvent micFail,"Most Wished For in Home Security & Surveillance Biometrics","Fail"	
+End If
+If Instr(searchString,resultString) >=0 Then
+OfficeProduct="Pass"
+Else
+OfficeProduct="Fail"
+End If
+End Function
+
+'TC_020-AM-220
+Function Watches()
+Dim resultString,searchString
+searchString=DataTable.Value("Expected_Value","TestData1")
+
+Browser(browserObject).Navigate(DataTable.Value("URL","TestData1"))
+
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Best Sellers").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Wished For").Highlight
+Browser("Browser").Page("Amazon.in Bestsellers:").Link("Most Wished For").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Most Wished").Link("Watches").Highlight
+Browser("Browser").Page("Amazon.in Most Wished").Link("Watches").Click 
+wait (2)
+Browser("Browser").Page("Amazon.in Most Wished_7").Link("Boys").Highlight
+Browser("Browser").Page("Amazon.in Most Wished_7").Link("Boys").Click 
+wait (2)
+Browser("Browser").Page("Amazon.in Most Wished_8").Link("Boys' Watchbands").Highlight
+Browser("Browser").Page("Amazon.in Most Wished_8").Link("Boys' Watchbands").Click
+wait (2)
+Browser("Browser").Page("Amazon.in Most Wished_9").WebElement("Most Wished For in Boys'").GetROProperty("text")
+
+If Instr(searchString,resultString) >=0 Then
+Reporter.ReportEvent micPass,"Most Wished For in Boys' Watchbands", "Pass"
+Else
+Reporter.ReportEvent micFail,"Most Wished For in Boys' Watchbands","Fail"	
+End If	
+If Instr(searchString,resultString) >=0 Then
+Watches="Pass"
+Else
+Watches="Fail"
+End If
+End Function
+
+
+
